@@ -14,6 +14,7 @@ public:
             if (cur > intervals[i][0]){
                 count++;
             }else{
+                
                 cur = intervals[i][1];
             }
         }
