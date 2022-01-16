@@ -4,6 +4,7 @@ public:
         if (s.size() == 0){
             return 0;
         }
+        
         sort(g.begin(), g.end());
         sort(s.begin(), s.end());
         int indexg = 0, indexs = 0;
